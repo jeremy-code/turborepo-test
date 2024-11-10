@@ -1,0 +1,10 @@
+{
+  "extends": ["//"],
+  "tasks": {
+    "topo": {},
+    "build": {
+      "outputs": ["schemas/**"],
+      "dependsOn": ["^topo"]
+    }
+  }
+}
