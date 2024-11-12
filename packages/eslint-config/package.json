@@ -7,27 +7,13 @@
     "next.mjs",
     "react-internal.js"
   ],
-  "scripts": {
-    "build": "tsup"
-  },
-  "dependencies": {
-    "dotenv": "16.0.3"
-  },
   "devDependencies": {
-    "@turbo/types": "workspace:*",
-    "@turbo/utils": "workspace:*",
-    "@types/eslint": "^8.44.2",
-    "@types/estree": "^1.0.0",
-    "@types/node": "^18.17.2",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "@vercel/style-guide": "^5.2.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-turbo": "^2.0.0",
-    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-turbo": "workspace:*",
     "globals": "^15.11.0",
-    "tsup": "^6.2.0",
-    "typescript": "5.5.4",
+    "typescript": "^5.6.3",
     "typescript-eslint": "^8.12.1"
   }
 }

@@ -2,6 +2,11 @@ import Image from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
 
+console.log(process.env.GLOBAL_TEST_ENV_IN_TURBOJSON);
+console.log(process.env.LOCAL_TEST_ENV_IN_TURBOJSON);
+console.log(process.env.TEST_ENV_IN_DOT_ENV);
+console.log(process.env.NEXT_PUBLIC_TEST_ENV);
+
 export default function Home() {
   return (
     <div className={styles.page}>

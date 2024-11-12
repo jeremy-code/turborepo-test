@@ -1,0 +1,23 @@
+{
+  "display": "Library",
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Language and Environment */
+    "target": "ES2019",
+    "lib": ["ES2019"],
+
+    /* JavaScript Support */
+    "allowJs": false,
+
+    /* Emit */
+    "outDir": "dist",
+
+    /* Interop Constraints */
+    "resolveJsonModule": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}

@@ -19,13 +19,12 @@
   "main": "src/index.ts",
   "types": "src/index.ts",
   "scripts": {
-    "test": "jest",
     "check-types": "tsc --noEmit",
     "lint:prettier": "prettier -c . --cache --ignore-path=../../.prettierignore"
   },
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
     "@manypkg/find-root": "^1.1.0",
+    "@repo/tsconfig": "workspace:*",
     "@turbo/types": "workspace:*",
     "@types/async-retry": "^1.4.5",
     "@types/fs-extra": "^9.0.13",
@@ -45,7 +44,6 @@
     "ora": "4.1.1",
     "picocolors": "1.0.1",
     "tar": "6.1.13",
-    "ts-jest": "^29.2.5",
-    "typescript": "5.5.4"
+    "typescript": "^5.6.3"
   }
 }

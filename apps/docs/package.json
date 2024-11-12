@@ -6,7 +6,7 @@
     "dev": "next dev --turbo --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --cache --cache-location .next/cache/eslint/ ."
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
-    "typescript": "5.5.4"
+    "typescript": "^5.6.3"
   }
 }

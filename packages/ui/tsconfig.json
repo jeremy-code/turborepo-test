@@ -1,8 +1,9 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
+  "extends": "@repo/tsconfig/tsconfig-react.json",
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src"],
+  "files": ["eslint.config.mjs"],
+  "include": ["src", "turbo"],
   "exclude": ["node_modules", "dist"]
 }
